@@ -6,6 +6,8 @@ This repository contains compatibility data for Web technologies.
 Browser compatibility data describes which platforms (where "platforms" are
 usually, but not always, web browsers) support particular Web APIs.
 
+*Please note that we have not (yet) migrated all compatibility data from the MDN wiki pages into this repository. If you wish to help the migration effort, please read about [adding new format compatibility data](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Structures/Compatibility_tables).*
+
 This data can be used in documentation, to build compatibility tables listing
 browser support for APIs. For example:
 [Browser support for WebExtension APIs](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs).
@@ -29,13 +31,11 @@ bcd.css.properties.background;
 // returns a compat data object (see schema)
 ```
 
-## Repository contents
+## Repository structure
 
 There's a top-level directory for each broad area covered: for example, "http",
 "javascript", "webextensions". Inside each of these directories is one or more
 JSON file containing the compatibility data.
-
-*Please note that we have not (yet) migrated all compatibility data from the MDN wiki pages into this repository.*
 
 - [api/](https://github.com/mdn/browser-compat-data/tree/master/api) contains data for each [Web API](https://developer.mozilla.org/en-US/docs/Web/API) interface.
 
